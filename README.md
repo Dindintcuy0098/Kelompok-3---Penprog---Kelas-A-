@@ -1,2 +1,4 @@
 # Kelompok-3---Penprog---Kelas-A-
-Membuat game sederhana dengan python
+Membuat game Tic Tac Toe yang seru dengan tampilan yang menarik!!
+
+#
