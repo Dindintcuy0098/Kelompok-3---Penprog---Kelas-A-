@@ -1,17 +1,6 @@
 import tkinter #tk-interface (graphical user interface library)
 
-def initMusic(self):
-         self.player = QMediaPlayer()
-         url = QUrl.fromLocalFile("ost_tac_tic_toe1.mp3")
-         self.player.setMedia(QMediaContent(url))
-         self.player.setVolume(40)
-         self.player.mediaStatusChanged.connect(self.loopMusic)
-    
-def loopMusic(self, status):
-         if status == QMediaPlayer.EndOfMedia:
-             self.player.setPosition(0)
-             self.player.play()
-             
+
 def set_tile(row, column):
     global curr_player
 
