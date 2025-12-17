@@ -10,8 +10,38 @@ Proyek kolaborasi python
 Membuat game Tic Tac Toe yang seru dengan tampilan yang menarik!!
 
 # Cara Penggunaan
+- Buka link repository yang di berikan, lalu salin kode dan buka di vscode
+- Setelahnya, buat file baru di vscode dan masukan kode tersebut
+- Save kode dengan menekan tombol ctrl+s
+- Lalu run program (tidak harus mengetik program di terminal)
+- Jika program gagal artinya belum mengunduh extensionnya, sehingga unduh extension 
+terlebih dahulu
+- Setelah tata cara 1-5 sudah selesai, run kembali program
+- Jika berhasil maka tampilan akan seperti ini
+
 
 # Flowchart
+```mermaid
+    flowchart TD
+    Start --> Init
+    Init --> GUI
+    GUI --> WaitInput
+
+    WaitInput -->|Klik Tile| Validate
+    Validate -- Tidak valid --> WaitInput
+    Validate -- Valid --> MarkTile
+    MarkTile --> SwitchPlayer
+    SwitchPlayer --> CheckResult
+
+    CheckResult -- Menang --> GameOver
+    CheckResult -- Tie --> GameOver
+    CheckResult -- Lanjut --> WaitInput
+
+    GameOver -->|Tutup Window| End
+    GameOver -->|Klik Restart| ResetGame
+    ResetGame --> WaitInput
+
+```
 
 # Kontribusi Anggota Kelompok
 | Nama Kontributor        | Persentase Kontribusi | Jumlah Kontribusi | Profil GitHub                              |
