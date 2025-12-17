@@ -16,6 +16,6 @@ Membuat game Tic Tac Toe yang seru dengan tampilan yang menarik!!
 # Kontribusi Anggota Kelompok
 | Nama Kontributor        | Persentase Kontribusi | Jumlah Kontribusi | Profil GitHub                              |
 |------------------------|----------------------|-------------------|--------------------------------------------|
-| Kevin               | x%                  | x                | [kevinm789](https://github.com/kevinm789)  ![kevinm789](https://avatars.githubusercontent.com/u/67252650?v=4)          |
-| Andin                 | x%                  | x                 | [Dindintcuy0098](https://github.com/Dindintcuy0098) ![Dindintcuy0098](https://avatars.githubusercontent.com/u/241054501?v=4)                |
-| Isak         | x%                   | x                 | [samsam-07](https://github.com/samsam-07) ![samsam-07](https://avatars.githubusercontent.com/u/241254299?v=4) |
+| Kevin               | 33,33%                  | 10                | [kevinm789](https://github.com/kevinm789)  ![kevinm789](https://avatars.githubusercontent.com/u/67252650?v=4)          |
+| Andin                 | 33,33%                  | 10                 | [Dindintcuy0098](https://github.com/Dindintcuy0098) ![Dindintcuy0098](https://avatars.githubusercontent.com/u/241054501?v=4)                |
+| Isak         | 33,33%                   | 10                 | [samsam-07](https://github.com/samsam-07) ![samsam-07](https://avatars.githubusercontent.com/u/241254299?v=4) |
