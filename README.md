@@ -12,6 +12,27 @@ Membuat game Tic Tac Toe yang seru dengan tampilan yang menarik!!
 # Cara Penggunaan
 
 # Flowchart
+```mermaid
+    flowchart TD
+    Start --> Init
+    Init --> GUI
+    GUI --> WaitInput
+
+    WaitInput -->|Klik Tile| Validate
+    Validate -- Tidak valid --> WaitInput
+    Validate -- Valid --> MarkTile
+    MarkTile --> SwitchPlayer
+    SwitchPlayer --> CheckResult
+
+    CheckResult -- Menang --> GameOver
+    CheckResult -- Tie --> GameOver
+    CheckResult -- Lanjut --> WaitInput
+
+    GameOver -->|Tutup Window| End
+    GameOver -->|Klik Restart| ResetGame
+    ResetGame --> WaitInput
+
+```
 
 # Kontribusi Anggota Kelompok
 | Nama Kontributor        | Persentase Kontribusi | Jumlah Kontribusi | Profil GitHub                              |
